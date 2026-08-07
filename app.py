@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return jsonify({
-        "message": "Welcome to Azure CI/CD Demo",
+        "message": "Welcome to Azure CI/CD Demo - Version 2",
         "status": "Success"
     })
 
